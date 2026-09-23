@@ -2,12 +2,15 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
-  "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "author": "yash dhankar",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.9.9"
+  }
 }
